@@ -128,8 +128,8 @@ text-align: center;
     content: "";
     justify-content: center;
     display: flex;
-    width: 60px;
-    height: 3px;
+    width: 50px;
+    height: 2px;
     background-color: var(--color-hover-text);
     margin-bottom: 50px;
     margin-top: 8px;
@@ -189,8 +189,8 @@ text-align: left;
     content: "";
     justify-content: center;
     display: flex;
-    width: 60px;
-    height: 3px;
+    width: 50px;
+    height: 2px;
     background-color: var(--color-hover-text);
     margin-top: 8px;
 
@@ -198,6 +198,12 @@ text-align: left;
 .our-title {
     text-align: left;
     margin-right: 154px;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.16;
+letter-spacing: 2.3062498569488525px;
+text-align: left;
+
 }
 .our-section {
     display: flex;
@@ -205,7 +211,7 @@ text-align: left;
 }
 .our-text {
     width: 405px;
-    margin-right: 31px;
+    margin-right: 58px;
     text-align: left;
 font-size: 11px;
 font-weight: 400;
@@ -219,8 +225,10 @@ text-align: left;
     display: flex;
 }
 .project-title {
-border: 1px solid var(--color-text-second);
-padding: 25px 15px;
+border: 1px solid rgb(182, 180, 180);
+padding: 38px 23px;
+/* width: 60px;
+height: 60px; */
 }
 .project-title:not(:last-child) {
     margin-right: 20px; 
@@ -228,6 +236,12 @@ padding: 25px 15px;
 
 .project-icon {
     margin-bottom: 20px;
+    height: 75px;
+    fill: rebeccapurple;
+}
+.use {
+    width: 30px;
+    height: 30px;
 }
 .project-item {
     margin-bottom: 25px;
@@ -246,11 +260,17 @@ padding: 25px 15px;
     padding-top: 120px;
     padding-bottom: 20px;
     text-align: center;
+    padding-left: 325px;
+    padding-right: 325px;
+font-size: 30px;
+font-weight: 700;
+line-height: 1.2;
+letter-spacing: 0.15000000596046448px;
 }
 
 .build-button {
     display: block;
-    padding: 15px 25px;
+    padding: 14px 27px;
     background-color: var(--color-hover-text);
     color: var(--color-text);
     border: 1px solid transparent;
@@ -268,6 +288,7 @@ padding: 25px 15px;
  display: block;
  text-align: center;
  cursor: pointer;
+ border-radius: 50%;
 
 }
 .backdrop {
